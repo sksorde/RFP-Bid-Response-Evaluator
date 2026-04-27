@@ -39,7 +39,12 @@ The application uses a sequential multi-agent pipeline using an LLM to evaluate 
 2. **Install the dependencies:**
    Open a terminal in the project directory and run:
    ```bash
-   pip install -r requirements.txt
+
+py -m venv venv
+venv\Scripts\activate
+venv\Scripts\Activate.ps1(powershell)
+pip install -r requirements.txt
+
    ```
 
 3. **Start your Local LLM Server:**
